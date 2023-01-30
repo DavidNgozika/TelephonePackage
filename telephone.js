@@ -16,6 +16,17 @@ class Telephone {
 
     dialPhoneNumber = () => {}
 
-
+    addObserver = () => {}
+    removeObserver = () => {}
+    notifyObserver = () => {}
 }
 
+class Observer {
+    constructor() {
+
+    }
+
+    notify = () => {
+        
+    }
+}
